@@ -172,6 +172,9 @@ a:hover {
 .overflow {
   overflow: hidden;
 }
+.primary-color {
+  color: #FF4919;
+}
 
 /* SPACINGS */
 .no-spacing {
@@ -552,7 +555,7 @@ a:hover {
 }
 .side-widget .site-menu ul li {
   display: block;
-  margin: 3px 0;
+  margin: 27px 0;
   padding: 0;
   list-style: none;
 }
@@ -867,8 +870,8 @@ a:hover {
   height: 58px;
   line-height: 58px;
   padding: 0 40px;
-  color: #FFF;
-  background: #FF4919;
+  color: #FF4919;
+  background: #FFF;
   font-size: 13px;
   font-weight: 600;
 }
@@ -880,6 +883,8 @@ a:hover {
 }
 .navbar .navbar-button:hover {
   text-decoration: none;
+  color: #FFF;
+  background: #FF4919;
 }
 
 /* SLIDER */
@@ -3208,6 +3213,7 @@ a:hover {
   max-width: 100%;
   display: none;
   padding: 40px;
+  overflow-x: hidden;
 }
 #sales-specialist-form .form-group span {
   display: inline-block;
