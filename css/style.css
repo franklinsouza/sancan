@@ -1296,7 +1296,20 @@ a:hover {
 .icon-content a:hover {
   text-decoration: none;
 }
-
+.icon-content.cta {
+  background: #FF4919;
+  color: #FFF;
+}
+.icon-content.cta svg{
+  fill: #FFF;
+}
+.icon-content.cta a.button {
+  padding: 2px 25px;
+  background-color: #fff;
+  width: initial;
+  height: initial;
+  color: #FF4919;
+}
 /* SIDE IMAGE */
 .side-image {
   width: 100%;
