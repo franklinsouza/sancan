@@ -3568,6 +3568,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 
   .project-slider .swiper-slide {
     max-width: inherit;
+    padding: 0 10px;
   }
 
   .calculator .form .info-box {
@@ -3610,6 +3611,10 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 }
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+  .content-section {
+    padding: 50px 0;
+  }
+
   .side-widget {
     width: 240px;
   }
@@ -3675,8 +3680,20 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     margin: 15px 0;
   }
 
+  .icon-content figure {
+    margin-bottom: 20px;
+  }
+
+  .icon-content h3 {
+    margin-bottom: 20px;
+  }
+
   .icon-content small {
-    margin-bottom: 30px;
+    margin-bottom: 0;
+  }
+
+  .enterprise-section h2 {
+    font-size: 33px;
   }
 
   .project-slider .swiper-slide .project-box figcaption {
