@@ -863,7 +863,7 @@ a:hover {
   cursor: pointer;
 }
 .navbar .hamburger {
-  display: inline-block;
+  display: none;
   color: #fff;
 }
 .navbar .navbar-button {
@@ -3638,6 +3638,10 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     align-items: center;
     gap: 20px;
     text-align: center;
+  }
+
+  .navbar .hamburger {
+    display: inline-block;
   }
 }
 /* RESPONSIVE MOBILE */
