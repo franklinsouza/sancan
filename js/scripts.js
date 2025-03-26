@@ -93,25 +93,25 @@
   // END DOCUMENT READY
 
 
-  // MASONRY
-  $(window).load(function () {
-    $('.projects').isotope({
-      itemSelector: '.projects li',
-      percentPosition: true
-    });
-  });
+  // // MASONRY
+  // $(window).load(function () {
+  //   $('.projects').isotope({
+  //     itemSelector: '.projects li',
+  //     percentPosition: true
+  //   });
+  // });
 
 
-  // ISOTOPE FILTER
-  var $container = $('.projects');
-  $container.isotope({
-    filter: '*',
-    animationOptions: {
-      duration: 750,
-      easing: 'linear',
-      queue: false
-    }
-  });
+  // // ISOTOPE FILTER
+  // var $container = $('.projects');
+  // $container.isotope({
+  //   filter: '*',
+  //   animationOptions: {
+  //     duration: 750,
+  //     easing: 'linear',
+  //     queue: false
+  //   }
+  // });
 
 
   // ISOTOPE FILTER
@@ -279,7 +279,7 @@
   var pageSection = $("*");
   pageSection.each(function (indx) {
     if ($(this).attr("data-background")) {
-      $(this).css("background", "url(" + $(this).data("background") + ")");
+      $(this).css("background-image", "url(" + $(this).data("background") + ")");
     }
   });
 
