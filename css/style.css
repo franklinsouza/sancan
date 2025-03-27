@@ -181,11 +181,10 @@ a:hover {
 
 .icons-list {
   display: grid;
-  gap: 20px;
+  gap: 15px;
   margin: 0;
   padding: 0;
   margin-top: 23px;
-  margin-bottom: 70px;
   grid-template-columns: 1fr;
 }
 .icons-list li {
@@ -209,6 +208,66 @@ a:hover {
 .icons-list li:hover svg {
   fill: #FFF;
 }
+
+.items-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+.items-list li {
+  display: flex;
+  border: 1px solid #e8e8e8;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 10px;
+  font-size: 15px;
+}
+
+.items-list li svg {
+  flex-shrink: 0;
+}
+
+.percent-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+}
+
+.percent-list li {
+  display: flex;
+  border: 1px solid #e8e8e8;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 10px;
+  font-size: 15px;
+  position: relative;
+}
+
+.percent-list li .percentage{
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #ffb7a3;
+  z-index: -5;
+}
+
+.percent-list li span:last-child {
+  margin-left: auto;
+  color: #ff4919;
+  font-size: 17px;
+}
+.percent-list li svg {
+  flex-shrink: 0;
+}
+
+.columns-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
 .columns-3 {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -216,9 +275,15 @@ a:hover {
 .columns-4 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .icons-section .section-title h2{
   margin-bottom: 75px;
 }
+
+.map-section .map-container{
+  background-color: #e9ebdf;
+}
+
 /* SPACINGS */
 .no-spacing {
   margin: 0 !important;
@@ -2306,6 +2371,7 @@ a:hover {
 /* CORE VALUES BOX */
 .core-values-box {
   width: 100%;
+  height: 100%;
   display: block;
   border: 1px solid #e8e8e8;
   padding: 30px;
@@ -3865,6 +3931,15 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 
   #projects-page .page-header .container h1 {
     font-size: 2.1rem;
+  }
+
+  .columns-3, .columns-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .icons-list li {
+    align-items: center;
+    text-align: center;
   }
 
   .footer-bar h2 {
